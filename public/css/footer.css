@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    user-select: none;
+    color: #fff;
+    background-color: #1d3557;
+}
+.footerSection {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footerSection section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+.footerSectionsection h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footerSection section ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.footerSection ul, li {
+    margin-bottom: 7px;
+}
+.footerSection ul, a:hover {
+    color: var(--dark-red);
+    font-weight: bold;
+    text-decoration: none;
+}
+.contactUs span{
+    font-size: 20px;
+    margin-right: 5px;
+}

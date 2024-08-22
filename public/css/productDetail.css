@@ -1,0 +1,82 @@
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.productInf{
+    display: flex;
+    flex-direction: column;
+}
+.productInf img{
+    width: 30rem;
+    height: 25rem;
+    transition: transform 0.3s ease-in-out;
+}
+.productInf img:hover{
+    transform: scale(1.3);
+}
+.productInf h1{
+    background-color: transparent;
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: -.05rem;
+}
+.productInf h3{
+    margin-bottom: 1rem;
+}
+
+.headProduct{
+    display: flex;
+    flex-direction: row;
+}
+.btnProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    height: 4.5rem;
+    margin-left: -8rem;
+    margin-top: 5rem;
+}
+
+.headInf{
+    margin-top: -3rem;
+    margin-left: 1rem;
+}
+
+.productBody{
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    text-align: justify;
+}
+.productBody h2{
+    background-color: #B31E28;
+    font-weight: 600;
+    font-size: 18px;
+}
+#caracteristicas{
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+.productBody h3{
+    background-color: #337AB7;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding: 1.5rem;
+    letter-spacing: 0.1rem;
+    border-radius: 1.5rem;
+}
+.productBody p{
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}

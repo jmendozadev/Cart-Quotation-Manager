@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif, 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+.cotizacionForm {
+    max-width: 80rem;
+    background: #F8F9FD;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
+    border-radius: 40px;
+    padding: 3rem 2rem;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin: 0 auto;
+  }
+  
+.heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgb(16, 137, 211);
+}
+
+main {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.form {
+  margin-top: 2rem;
+}
+
+#name, #categoria {
+  margin-right: 3rem;
+}
+
+.datos{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+.etiquetas, .entrada {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form .input {
+  width: 100%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+
+.form .input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input:focus, .input-form {
+  outline: none;
+  border-inline: 2px solid #12B1D1;
+}
+
+.input-form{
+  width: 30%;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  text-align: center;
+  font-size: medium;
+}
+
+.fecha {
+  margin-bottom: 2rem;
+}
+
+.form .add-button, .form .cancel-button {
+  display: inline;
+  width: 30%;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.form .cancel-button {
+  background: linear-gradient(45deg, rgb(216, 1, 1) 0%, rgb(255, 48, 48) 100%);
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form .add-button:hover, .form .cancel-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .add-button:active, .form .cancel-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.log-form{
+  text-decoration: none;
+  color: #b31e28;
+}
+
+.log-form:hover{
+  font-weight: bold;
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

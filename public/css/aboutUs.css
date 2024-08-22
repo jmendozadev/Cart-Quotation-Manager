@@ -1,0 +1,51 @@
+#aboutus{
+    text-align: center;
+}
+
+.company{
+    text-align: justify;
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about h2{
+    background-color: var(--dark-red);
+}
+
+.about h3{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2rem 25rem;
+    background-color: #337AB7;
+    color: var(--white);
+    letter-spacing: 0.1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.about h3:hover{
+    font-weight: 900;
+    cursor:context-menu
+}
+
+.about p, li{
+    margin: 1rem 15rem;
+    text-align: justify;
+}
+
+.company img{
+    padding-left: 6rem;
+}
+
+#slogan{
+    font-size: 3rem;
+    color: red;
+    font-weight: bolder;
+    font-family:sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+}
